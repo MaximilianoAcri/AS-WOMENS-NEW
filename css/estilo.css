@@ -1,0 +1,38 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+bottom: 0;
+}
+
+
+.navcolor {
+    background-color: rgb(194, 139, 87) !important;
+    text-align: center;
+    text-shadow: 0 0 3px #000;
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+.navcolor a {
+    color: #ffff;
+}
+
+.navcolor a:hover {
+    color: rgb(194, 139, 87);
+    }
+
+.navcolor a:active {
+        box-shadow: 0 0,5px rgb(10, 0, 0);
+        transform: translateY(5px);
+    }
+
+
+.navbar-toggler-icon {
+    background-image: url(/images/rsmRecurso\ 5.png);
+}
+
+.carousel-caption {
+    color: rgb(194, 139, 87) ;
+}
